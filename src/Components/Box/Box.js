@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import './Box.css'
+
+
 export const Box = (props) => {
     let [currentSymbol, setCurrentSymbol] = useState("-");
     return <h2 className='Box' onClick={() => {
@@ -9,3 +11,6 @@ export const Box = (props) => {
 {currentSymbol}
     </h2>
 };
+
+
+
